@@ -4,11 +4,12 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 import reportWebVitals from './reportWebVitals';
+import Router from './components/Router';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <p>test</p>
+      <Router />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
