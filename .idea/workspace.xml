@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a2b68e-c55f-4d0e-af08-fb61582b08a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Router/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Add/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Add/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Edit/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Edit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Guest/component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Guest/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Guest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/hook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFound/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFound/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <workItem from="1607796059240" duration="1287000" />
       <workItem from="1607797444246" duration="2433000" />
       <workItem from="1607847071174" duration="2108000" />
-      <workItem from="1607849210122" duration="1009000" />
+      <workItem from="1607849210122" duration="3378000" />
     </task>
     <servers />
   </component>

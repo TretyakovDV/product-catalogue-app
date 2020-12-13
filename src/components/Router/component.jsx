@@ -10,7 +10,7 @@ import NotFound from '../../pages/NotFound';
 import SignIn from '../../pages/SignIn';
 import SignUp from '../../pages/SignUp';
 
-const Router = ({ auth = false }) => (
+const Router = ({ auth = true }) => (
   <BrowserRouter>
     {auth ? (
       <Switch>
