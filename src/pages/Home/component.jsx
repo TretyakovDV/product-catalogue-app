@@ -1,12 +1,24 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 
-const Home = () => (
-  <p>Home</p>
-);
+import { signOut } from '../../store/session/actions';
 
-Home.propTypes = {};
+const Home = () => {
+  const dispatch = useDispatch();
 
-Home.defaultProps = {};
+  const handleClick = () => dispatch(signOut());
+
+  return (
+    <div>
+      <p>Home</p>
+      <button
+        type="button"
+        onClick={handleClick}
+      >
+        sign out
+      </button>
+    </div>
+  );
+};
 
 export default Home;
