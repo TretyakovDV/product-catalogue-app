@@ -1,24 +1,13 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 
-import { signOut } from '../../store/session/actions';
+import MainLayout from '../../layouts/Main';
 
-const Home = () => {
-  const dispatch = useDispatch();
+import ProductList from '../../components/ProductList';
 
-  const handleClick = () => dispatch(signOut());
-
-  return (
-    <div>
-      <p>Home</p>
-      <button
-        type="button"
-        onClick={handleClick}
-      >
-        sign out
-      </button>
-    </div>
-  );
-};
+const Home = () => (
+  <MainLayout>
+    <ProductList />
+  </MainLayout>
+);
 
 export default Home;

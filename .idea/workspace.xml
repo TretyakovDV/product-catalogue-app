@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a2b68e-c55f-4d0e-af08-fb61582b08a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/agent/firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductList/component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductList/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Main/component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Main/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/hook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/hook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/session/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/session/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/session/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/session/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/session/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/session/saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1lZE8Vi0dRmKjlUfrCQZaSV0ZYN" />
   <component name="ProjectViewState">
@@ -46,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,6 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\product-catologue-app\src\components" />
+      <recent name="D:\Work\product-catologue-app\src\layouts" />
       <recent name="D:\Work\product-catologue-app\src\pages" />
       <recent name="D:\Work\product-catologue-app\src\store" />
     </key>
@@ -88,6 +88,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
